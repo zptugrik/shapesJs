@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="style.css">
+    <meta id="viewport" name='viewport' />
+    <script src="pixi.min.js"></script>
+</head>
+<body>
+    <div class="counterWraper">
+        <div class="counter" id="counter"></div>
+    </div>
+    <div class="counterWraper">
+        <div class="square" id="square"></div>
+    </div>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="language.js"></script>
+    <script type="text/javascript" src="shapes.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+<div class="buttonsWraper">
+    <div class="buttonTitle" id="shapesTitle"></div>
+    <button onClick="shapes.DecreaseShapesVelocity();">-</button>
+    <button onClick="shapes.IncreaseShapesVelocity();">+</button>
+</div>
+<div class="buttonsWraper">
+    <div class="buttonTitle" id="gravityTitle"></div>
+    <button onClick="shapes.DecreaseGravity();">-</button>
+    <button onClick="shapes.IncreaseGravity();">+</button>
+</div>
+    <script type="text/javascript">shapes.ButtonsInit();</script>
+</body>
+</html>

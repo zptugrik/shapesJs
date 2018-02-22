@@ -1,0 +1,32 @@
+html, body{
+    margin:0px;
+    padding: 0px;
+}
+button{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+    width: 30%;
+    height:100%;
+}
+.buttonsWraper{
+    float: left;
+    height: 50px;
+    width:50%;
+    text-align: center;
+}
+.buttonTitle, .counter, .square{
+    font-size: 120%;
+    font-weight: bold;
+}
+.counterWraper{
+    border: 2px #ccc solid;
+    float: left;
+    padding: 20px;
+}
+.counter, .square{
+    padding-left: 20px;
+    float: left;
+}
